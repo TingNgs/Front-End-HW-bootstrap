@@ -1,0 +1,222 @@
+*{padding: 0;margin: 0;font-family:"Microsoft JhengHei";}
+html{
+    width: 1440px;
+    margin: 0 auto;
+}
+.nav_header{
+    width: 1440px;
+    height: 130px;
+    padding: 0px 45px 0px 45px;
+}
+
+#logo{
+    margin-top: 40px;
+    width: 433px;
+    height: 80px;
+}
+#nav_bar{
+    float: right;
+}
+#nav_bar a{
+    float: left;
+    margin: 80px 10px 0px 20px;
+    font-size: 14px;
+    color: #6c6c6c;
+}
+#nav_bar a:hover{
+    color: #d7ac41;
+}
+.d_border{
+    width: 62px;
+    border: 1px solid #d7ac41;
+    text-align:center
+}
+.thumbnail {
+    position: relative;
+}
+
+#top_banner.thumbnail img{
+    width: 1440px;
+    height: 782px;
+}
+
+#top_banner .caption {
+    position: absolute;
+    top: 42.84%;
+    left: 0;
+    width: 100%;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+}
+
+#top_banner .caption h1{
+    font-size: 80px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+#top_banner .caption p{
+    font-size: 24px;
+}
+
+#about.thumbnail img{
+    width: 1440px;
+    height: 754px;
+}
+
+#about .caption {
+    position: absolute;
+    width: 770px;
+    top: 13.26%;
+    left: 23.26%;
+    color: white;
+}
+#about .caption img{
+    width: 120px;
+    height: 120px;
+    margin-left: 325px;
+    margin-bottom: 40px;
+    
+}
+#about .caption p{
+    font-size: 16px;
+    margin-bottom: 40px;
+    line-height: 1.62;
+}
+#about .caption p strong{
+    font-size: 24px;
+    font-weight: 600;
+}
+#about .d_border{
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+
+#service.thumbnail img{
+    width: 1440px;
+    height: 667px;
+}
+#service .caption{
+    position: absolute;
+    width: 1170px;
+    top: 14.99%;
+    left: 8.33%;
+}
+#service .caption h1{
+    font-size: 50px;
+    font-weight: 600;
+    color: #4a494b;
+    margin-bottom: 40px;
+}
+#service .d_border{
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.service_box{
+    height: 60px;
+    width: 270px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding-top: 17px;
+    color: #6c6c6c;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+#team .d_border{
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 25px;
+}
+#team h1{
+    text-align: center;
+}
+#team_list{
+    margin :60px 0px;
+    height: 400px; 
+    width: 100%;
+}
+#team_list img{
+    height: 400px;
+    width: 270px;
+
+}
+.team_member_detail{
+    background-color: #f6f7f8;
+    height: 400px;
+    width: 300px;
+
+    padding-top: 60px;
+    padding-left: 30px;
+}
+.team_member_detail h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+.team_member_detail h3{
+    font-size: 16px;
+    font-weight: 300;
+    margin-top: 18px;
+}
+.team_member_detail p{
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+.email{
+    font-size: 16px;
+}
+#all_member_button{
+    height: 60px;
+    width: 270px;
+    margin: 0 auto;
+    border: 1px solid #d7ac41;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 100px;
+}
+#all_member_button a{
+    color: #d7ac41;
+    font-size: 16px;
+}
+
+#footer.thumbnail img{
+    width: 1440px;
+    height: 437px;
+}
+
+#footer .caption {
+    position: absolute;
+    top: 22.88%;
+    left: 9.375%;
+    width: 100%;
+}
+#footer .d_border{
+    margin-bottom: 25px;
+}
+#footer .caption h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #4a494b;
+}
+#footer .caption p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.footer_detail{
+    float: left;
+    margin-right: 110px; 
+}
+#cpy_right_bar{
+    widows: 1440px;
+    height: 48px;
+    background-color: #2b2c2c;
+    color: white;
+    padding-top: 10px;
+}
+
+
+
+
