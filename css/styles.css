@@ -93,7 +93,7 @@ ul.navbar-list > li > a:hover {
 }
 
 #top_banner {
-    background: url(../images/top-banner.jpg) center;
+    background: url(../images/top-banner.jpg) fixed center;
     background-size: cover;
     height: 782px;
     display: flex;
@@ -119,7 +119,7 @@ ul.navbar-list > li > a:hover {
     height: 120px;
 }
 #about{
-    background: url(../images/about-bg.jpg) center;
+    background: url(../images/about-bg.jpg) fixed center;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -146,7 +146,7 @@ ul.navbar-list > li > a:hover {
     margin-top: 40px;
 }
 #service{
-    background: url(../images/service-bg.jpg) center;
+    background: url(../images/service-bg.jpg) fixed center;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -188,6 +188,7 @@ ul.navbar-list > li > a:hover {
 }
 .team_member_background {
     background-color: #f6f7f8;
+    min-width: 258px;
 }
 
 #team h1{
@@ -232,7 +233,7 @@ ul.navbar-list > li > a:hover {
     text-decoration: unset;
 }
 #footer{
-    background: url(../images/footer-bg.jpg) center;
+    background: url(../images/footer-bg.jpg) fixed center;
     background-size: cover;
     display: flex;
     align-items: center;
